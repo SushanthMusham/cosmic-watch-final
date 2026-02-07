@@ -65,7 +65,7 @@ export default function AsteroidCard({ asteroid }: { asteroid: Asteroid }) {
   useEffect(() => {
     if (hovered && !hasFetched && !loading) {
       setLoading(true);
-      axios.post("http://localhost:5000/api/asteroid/summary", {
+      axios.post("https://cosmic-watch-final.vercel.app/api/asteroid/summary", {
         name: asteroid.name.replace(/[()]/g, ""),
         size: size.toFixed(3),
         speed: speed,

@@ -72,7 +72,7 @@ export default function Dashboard() {
     const fetchAsteroids = async () => {
       try {
         const token = localStorage.getItem("token");
-        const res = await axios.get("http://localhost:5000/api/asteroids", {
+        const res = await axios.get("https://cosmic-watch-final.vercel.app/api/asteroids", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
