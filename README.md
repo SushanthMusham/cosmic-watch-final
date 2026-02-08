@@ -6,6 +6,9 @@
 
 **Demo Video: **https://drive.google.com/file/d/1gMT6I1YN2uLLLcQXp9F77Mbqq_FgMFbs/view?usp=sharing
 
+**Presentation pdf: ** [Cosmic_Watch.pdf](https://github.com/user-attachments/files/25157721/Cosmic_Watch.pdf)
+
+
 ## 🚀 Key Features
 - **3D Orbital Engine:** Interactive visualization of Earth and asteroid swarms using Three.js.
 - **Live NASA Feed:** Real-time data processing from the NeoWs API.
